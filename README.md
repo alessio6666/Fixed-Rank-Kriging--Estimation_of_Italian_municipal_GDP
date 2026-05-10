@@ -3,28 +3,26 @@
 > **Spatial Statistics and Geostatistical Modeling for the [GRINS Project](https://grins.it/)**  
 
 ## Project Overview
-Questo progetto, sviluppato nell'ambito del progetto **GRINS**, mira a valutare la resilienza socio-economica degli oltre 7.900 comuni italiani. Poiché i dati ufficiali sul PIL non sono disponibili a livello municipale, il lavoro implementa un framework di **downscaling geostatistico** per produrre stime granulate e analizzare la capacità dei territori di assorbire shock e sostenere lo sviluppo.
+This project, developed as part of the **GRINS** initiative, evaluates the socio-economic resilience of more than 7,900 Italian municipalities. Since official GDP data is unavailable at the municipal level, this work implements a **geostatistical downscaling** framework to produce granular estimates and analyze local capacity to absorb shocks and sustain development.
 
 ## Geostatistical Methodology
-Il framework metodologico si articola in quattro fasi principali:
+The methodological framework is divided into four main phases:
 
-* **Social Growth Index (SGI)**: Un indicatore composito che funge da proxy per la resilienza, basato sui tassi di crescita annuali di PIL, Popolazione e PIL pro capite.
-* **Fixed-Rank Kriging (FRK)**: Utilizzato per proiettare il PIL provinciale a livello comunale. Il modello combina effetti sistematici di covariate (occupazione, capacità fiscale) con effetti casuali spaziali strutturati e componenti a scala fine.
-* **LISA Maps (Local Indicators of Spatial Association)**: Analisi basata sulla statistica *Local Moran's I* per identificare cluster spaziali significativi (High-High, Low-Low) e mappare la dipendenza territoriale.
-* **Penalty-Adjusted Copeland Ranking**: Un metodo di ordinamento basato su confronti a coppie per classificare la resilienza. È stato introdotto un termine di penalità basato sulla media dei vicini per garantire stabilità temporale ai risultati.
+* **Social Growth Index (SGI)**: A composite indicator serving as a proxy for territorial resilience, based on the annual growth rates of GDP, Population, and GDP per capita.
+* **Fixed-Rank Kriging (FRK)**: Used to project provincial-level GDP to the municipal level. The model combines systematic effects of covariates—such as population, employment, and fiscal capacity—with structured spatial random effects and fine-scale components.
+* **LISA Maps (Local Indicators of Spatial Association)**: Analysis based on the *Local Moran's I* statistic to identify statistically significant spatial clusters (High-High, Low-Low) and map territorial interdependence.
+* **Penalty-Adjusted Copeland Ranking**: A ranking procedure based on pairwise comparisons to classify resilience. A spatial penalty term incorporating the average values of neighboring territories was introduced to ensure temporal stability.
 
 ## Key Results
-* **Dipendenza Spaziale**: I risultati rivelano una forte autocorrelazione spaziale positiva; i territori tendono a influenzare ed essere influenzati dalle condizioni socio-economiche delle aree limitrofe.
-* **Leader della Resilienza**: Le province della **Lombardia** (con Milano in testa) sono emerse come le unità territoriali più resilienti del paese.
-* **Dinamiche Temporali (2019-2022)**: L'analisi del punteggio Copeland ha evidenziato un incremento della resilienza nel Nord Italia, contrapposto a una tendenza alla diminuzione in molti comuni del Mezzogiorno.
+* **Spatial Dependence**: Results reveal strong positive spatial autocorrelation; territorial units are significantly influenced by the socio-economic conditions of their neighbors.
+* **Resilience Leaders**: Provinces in the **Lombardy** region, particularly Milan, emerged as the most resilient areas in the country.
+* **Temporal Dynamics (2019–2022)**: The Copeland assessment highlighted an increase in resilience scores in Northern Italy, contrasting with a decreasing trend in many Southern municipalities.
 
-## Repository Structure
-* [`docs/`](docs/): Documentazione accademica completa.
-    * [`GRINS_Executive_Summary.pdf`](docs/GRINS_Executive_Summary.pdf): Analisi dettagliata del framework matematico e dei dati.
-    * [`Scientific_Poster.pdf`](docs/Scientific_Poster.pdf): Presentazione visuale dei pattern di resilienza e della metodologia FRK.
-* [`images/`](images/): Visualizzazioni delle mappe LISA e delle matrici di correlazione.
-
----
+## 📂 Repository Structure
+* [`docs/`](docs/): Complete academic documentation.
+    * [`GRINS_Executive_Summary.pdf`](docs/GRINS_Executive_Summary.pdf): Detailed analysis of the mathematical framework and data sources.
+    * [`Scientific_Poster.pdf`](docs/Scientific_Poster.pdf): Visual presentation of resilience patterns and FRK methodology.
+* [`images/`](images/): Visualizations of LISA maps and correlation matrices.
 
 ## Authors
 * [Alessio Pani](https://www.linkedin.com/in/alessio-pani-8739b93bb) (Team Leader)
@@ -34,5 +32,6 @@ Il framework metodologico si articola in quattro fasi principali:
 * Rahmat Perdana
 
 **Supervisors**: Dr. Matteo Greco, Dr. Giacomo Milan, Prof. Francesca Ieva.
+
 ---
 *Developed for the Applied Statistics course @ Politecnico di Milano (A.A. 2024/2025).*
