@@ -24,6 +24,8 @@ The methodological framework is divided into four main phases:
     * [`Scientific_Poster.pdf`](docs/Scientific_Poster.pdf): Visual presentation of resilience patterns and FRK methodology.
 * [`images/`](images/): Visualizations of LISA maps and correlation matrices.
 
+---
+
 ## Authors
 * [Alessio Pani](https://www.linkedin.com/in/alessio-pani-8739b93bb) (Team Leader)
 * Miguel Gutierrez
