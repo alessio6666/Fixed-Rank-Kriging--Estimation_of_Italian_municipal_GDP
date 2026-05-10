@@ -36,4 +36,4 @@ The methodological framework is divided into four main phases:
 **Supervisors**: Dr. Matteo Greco, Dr. Giacomo Milan, Prof. Francesca Ieva.
 
 ---
-*Developed for the Applied Statistics course @ Politecnico di Milano (A.Y. 2024/2025).*
+*Developed for the Applied Statistics course @ Politecnico di Milano (A.Y. 2024-2025).*
