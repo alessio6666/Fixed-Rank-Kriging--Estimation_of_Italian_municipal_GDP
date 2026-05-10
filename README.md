@@ -1,6 +1,6 @@
 # Fixed Rank Kriging (FRK) - Estimation of Italian municipal GDP
 
-> **Spatial Statistics and Geostatistical Modeling for the [GRINS Project](https://grins.it/)**  
+> **Spatial Statistics and Geostatistical Modeling for the [GRINS](https://grins.it/) Project**  
 
 ## Project Overview
 This project, developed as part of the **GRINS** initiative, evaluates the socio-economic resilience of more than 7,900 Italian municipalities. Since official GDP data is unavailable at the municipal level, this work implements a **geostatistical downscaling** framework to produce granular estimates and analyze local capacity to absorb shocks and sustain development.
