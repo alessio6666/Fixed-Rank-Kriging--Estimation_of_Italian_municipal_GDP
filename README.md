@@ -32,7 +32,7 @@ The methodological framework is divided into four main phases:
 * [`docs/`](docs/): Complete academic documentation.
     * [`GRINS_Executive_Summary.pdf`](docs/GRINS_Executive_Summary.pdf): Detailed analysis of the mathematical framework and data sources.
     * [`Scientific_Poster.pdf`](docs/Scientific_Poster.pdf): Visual presentation of resilience patterns and FRK methodology.
-* [`images/`](images/): Visualizations of LISA maps, FRK projections, Copeland Score and correlation matrices.
+* [`images/`](images/): Visualizations of LISA maps, FRK projections, Copeland Score and Correlation Matrices.
 
 ---
 
