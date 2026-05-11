@@ -11,13 +11,21 @@ The methodological framework is divided into four main phases:
 * **Social Growth Index (SGI)**: A composite indicator serving as a proxy for territorial resilience, based on the annual growth rates of GDP, Population, and GDP per capita. Variable redundancy was assessed through correlation analysis to ensure robustness.
 ![Correlation Matrix](images/Correlation%20Matrix%202022.png)
 * **LISA Maps (Local Indicators of Spatial Association)**: Analysis based on the *Local Moran's I* statistic to identify statistically significant spatial clusters (High-High, Low-Low) and map territorial interdependence.
+![Moran](images/Local%20Moran%20Cluster%202022.png)
 * **Fixed-Rank Kriging (FRK)**: Used to project provincial-level GDP to the municipal level. The model combines systematic effects of covariates, such as population, employment, and fiscal capacity, with structured spatial random effects and fine-scale components.
+![FRK Reprojection](images/FRK%20reprojection%20GDP%202022.png)
+
 * **Penalty-Adjusted Copeland Ranking**: A ranking procedure based on pairwise comparisons to classify resilience. A spatial penalty term incorporating the average values of neighboring territories was introduced to ensure temporal stability.
 
 ## Key Results
 * **Spatial Dependence**: Results reveal strong positive spatial autocorrelation; territorial units are significantly influenced by the socio-economic conditions of their neighbors.
-* **Resilience Leaders**: Provinces in the **Lombardy** region, particularly Milan, emerged as the most resilient areas in the country.
+* **Resilience Leaders**: The assessment identifies the most resilient areas within the **Lombardy** region, particularly, Milan emerged as the most resilient areas in the country.
+![Copeland](images/Copeland%20Municipalities%202022.png)
+*Resilience ranking comparison: Provinces (left) vs. Municipalities (right).*
+
 * **Temporal Dynamics (2019–2022)**: The Copeland assessment highlighted an increase in resilience scores in Northern Italy, contrasting with a decreasing trend in many Southern municipalities.
+![Copeland Score Changes](images/Copeland%20Score%20Changes.png)
+*Spatial distribution of resilience changes: green indicates growth, red indicates a decrease.
 
 ## 📂 Repository Structure
 * [`docs/`](docs/): Complete academic documentation.
