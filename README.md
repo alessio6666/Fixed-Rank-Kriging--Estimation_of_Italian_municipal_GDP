@@ -9,8 +9,8 @@ This project, developed as part of the **GRINS** initiative, evaluates the socio
 The methodological framework is divided into four main phases:
 
 * **Social Growth Index (SGI)**: A composite indicator serving as a proxy for territorial resilience, based on the annual growth rates of GDP, Population, and GDP per capita.
-* **Fixed-Rank Kriging (FRK)**: Used to project provincial-level GDP to the municipal level. The model combines systematic effects of covariates, such as population, employment, and fiscal capacity, with structured spatial random effects and fine-scale components.
 * **LISA Maps (Local Indicators of Spatial Association)**: Analysis based on the *Local Moran's I* statistic to identify statistically significant spatial clusters (High-High, Low-Low) and map territorial interdependence.
+* **Fixed-Rank Kriging (FRK)**: Used to project provincial-level GDP to the municipal level. The model combines systematic effects of covariates, such as population, employment, and fiscal capacity, with structured spatial random effects and fine-scale components.
 * **Penalty-Adjusted Copeland Ranking**: A ranking procedure based on pairwise comparisons to classify resilience. A spatial penalty term incorporating the average values of neighboring territories was introduced to ensure temporal stability.
 
 ## Key Results
