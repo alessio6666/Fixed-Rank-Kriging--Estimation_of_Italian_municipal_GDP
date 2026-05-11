@@ -9,6 +9,7 @@ This project, developed as part of the **GRINS** initiative, evaluates the socio
 The methodological framework is divided into four main phases:
 
 * **Social Growth Index (SGI)**: A composite indicator serving as a proxy for territorial resilience, based on the annual growth rates of GDP, Population, and GDP per capita. Variable redundancy was assessed through correlation analysis to ensure robustness.
+
 ![Correlation Matrix](images/Correlation%20Matrix%202022.png)
 * **LISA Maps (Local Indicators of Spatial Association)**: Analysis based on the *Local Moran's I* statistic to identify statistically significant spatial clusters (High-High, Low-Low) and map territorial interdependence.
 ![Moran](images/Local%20Moran%20Cluster%202022.png)
