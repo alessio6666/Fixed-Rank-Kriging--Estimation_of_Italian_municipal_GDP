@@ -20,13 +20,13 @@ The methodological framework is divided into four main phases:
 
 ## Key Results
 * **Spatial Dependence**: Results reveal strong positive spatial autocorrelation; territorial units are significantly influenced by the socio-economic conditions of their neighbors.
-* **Resilience Leaders**: The assessment identifies the most resilient areas within the **Lombardy** region, particularly, Milan emerged as the most resilient areas in the country.
+* **Resilience Leaders**: The assessment identifies the most resilient areas within the **Lombardy** region, particularly, Milan emerged as the most resilient area in the country.
 ![Copeland](images/Copeland%20Provinces-Municipalities%202022.png)
 *Resilience ranking comparison: Provinces (left) vs. Municipalities (right).*
 
 * **Temporal Dynamics (2019–2022)**: The Copeland assessment highlighted an increase in resilience scores in Northern Italy, contrasting with a decreasing trend in many Southern municipalities.
 ![Copeland Score Changes](images/Copeland%20Score%20Changes.png)
-*Spatial distribution of resilience changes: green indicates growth, red indicates a decrease.
+*Spatial distribution of resilience changes: green indicates growth, red indicates a decrease.*
 
 ## 📂 Repository Structure
 * [`docs/`](docs/): Complete academic documentation.
