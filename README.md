@@ -28,7 +28,7 @@ The methodological framework is divided into four main phases:
 ![Copeland Score Changes](images/Copeland%20Score%20Changes.png)
 *Spatial distribution of resilience changes: green indicates growth, red indicates a decrease.*
 
-## 📂 Repository Structure
+## Repository Structure
 * [`docs/`](docs/): Complete academic documentation.
     * [`GRINS_Executive_Summary.pdf`](docs/GRINS_Executive_Summary.pdf): Detailed analysis of the mathematical framework and data sources.
     * [`Scientific_Poster.pdf`](docs/Scientific_Poster.pdf): Visual presentation of resilience patterns and FRK methodology.
